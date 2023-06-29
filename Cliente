@@ -5,7 +5,9 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
+#include <sys/select.h>
 #include <termios.h>
+#include <fcntl.h>
 
 #define SERVER_IP "127.0.0.1" // Substitua pelo endereço IP da sua máquina virtual
 #define SERVER_PORT 1234
