@@ -1,7 +1,8 @@
 # Backdoor
 Apresentamos aqui a implementação de um módulo de kernel que atua como backdoor, coletando informações dentro do kernel e as transmitindo para outra máquina( no caso utilizamos uma máquina virtual em ubunto). As informações que coletamos foram as entradas do usuário via teclado.
 
-Pré-requerimentos
+**Pré-requerimentos**
+
 Para o funcionamento do módulo de kernel foi utilizado uma máquina virtual com ubunto 64-bit, e o fedora como sistema operacional local, portanto entre o requisitos temos:
 .Máquina Virtual Ubunto 64-bit
 .Sistema Operacional Fedora 36
@@ -10,14 +11,14 @@ Para o funcionamento do módulo de kernel foi utilizado uma máquina virtual com
 Vale ressaltar que os comando para obter o log de informações do kernel são específicos do fedora, como será visto no código, bem diferente de outros sistemas Unix, portatno provavlemnete não irpa funcionar fora dele.
 
 
-Instalação
+**Instalação**
 1.Instalação da Oracle Virtual box
 Está disponível em https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html; basta escolher seu sistema operacional.
 
 2.Clone o repositório do git no diretório desejado.
 
 
-Configuração
+**Configuração**
     Etapa realizada na máquina do usuário.
 1. Mova para o diretório backdoor, nele utilize os seguintes comandos:
     -make
@@ -34,7 +35,7 @@ Para compilar e iniciar o servidor.
 1. Compilar o programa cliente dando make
 2. Rodar o executável.
 
-Uso
+**Uso**
 
 Após a instalação e configuração, o módulo de kernel será carregado e o servidor estará em execução. O cliente poderá se conectar ao servidor e obter as informações sobre as teclas pressionadas no teclado na máquina local.
 
@@ -42,7 +43,7 @@ Após a instalação e configuração, o módulo de kernel será carregado e o s
 - O servidor aguarda pela conexão do cliente.
 - O cliente se conectá ao servidor e exibe as informações sobre as teclas pressionadas.
 
-Observações 
+**Observações**
 
 - Grande parte dos comandos necessitam de privilégios de root, tenha certeza de estar utilizando.
 - O servidor e o cliente estão configurados em um IP e em uma porta específicas, caso deseje modificar, basta alterar os arquivos server.c e client.c e recompilar os programas.
