@@ -9,8 +9,8 @@
 #include <termios.h>
 #include <fcntl.h>
 
-#define SERVER_IP "127.0.0.1" // Substitua pelo endereço IP da sua máquina virtual
-#define SERVER_PORT 1234
+#define SERVER_IP "127.0.0.1" // Substitua pelo endereço IP da sua máquina local 
+#define SERVER_PORT 137   // Aqui pode escolher qualquer porta
 
 int kbhit() {
     struct termios oldt, newt;

