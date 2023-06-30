@@ -1,0 +1,1 @@
+cmd_/home/erik/USP/semestre_5/SO/backdoor/backdoor/backdoorModule.mod := printf '%s\n'   backdoorModule.o | awk '!x[$$0]++ { print("/home/erik/USP/semestre_5/SO/backdoor/backdoor/"$$0) }' > /home/erik/USP/semestre_5/SO/backdoor/backdoor/backdoorModule.mod
