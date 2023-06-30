@@ -1,1 +1,1 @@
-/home/erik/USP/semestre_5/SO/backdoor/backdoor/backdoorModule.o
+/home/erik/USP/semestre_5/SO/Backdoor/backdoor/backdoorModule.o

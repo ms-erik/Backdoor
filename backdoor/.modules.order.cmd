@@ -1,1 +1,1 @@
-cmd_/home/erik/USP/semestre_5/SO/backdoor/backdoor/modules.order := {   echo /home/erik/USP/semestre_5/SO/backdoor/backdoor/backdoorModule.o; :; } > /home/erik/USP/semestre_5/SO/backdoor/backdoor/modules.order
+cmd_/home/erik/USP/semestre_5/SO/Backdoor/backdoor/modules.order := {   echo /home/erik/USP/semestre_5/SO/Backdoor/backdoor/backdoorModule.o; :; } > /home/erik/USP/semestre_5/SO/Backdoor/backdoor/modules.order
