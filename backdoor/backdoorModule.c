@@ -45,6 +45,6 @@ module_init(my_module_init);
 module_exit(my_module_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("gabi");
+MODULE_AUTHOR("barbie");
 MODULE_DESCRIPTION("Módulo de kernel para capturar informações do teclado");
 
